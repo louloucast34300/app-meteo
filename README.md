@@ -6,3 +6,6 @@ Connexion à 2 API  :
 
 Lien du site : 
 www.meteo-louis.com
+
+!!!!!
+please put your API_KEY from openweather if u want to use it.
