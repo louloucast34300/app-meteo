@@ -1,0 +1,66 @@
+.mode-sombre{
+    background-image: url(img/bg3.png);
+    background-size:cover;
+}
+h1,h2,h4,h5,p{
+    color:white!important;
+}
+h4{
+    float:right;
+}
+h5{
+    font-size:20px!important;
+}
+
+
+.titre-desc{
+    width:100%;
+}
+.bloc-button{
+    margin:10px 0px;
+}
+.bloc-button button{
+    border-radius:20px;
+    padding:0px 70px;
+}
+.input{
+    width:400px;
+}
+.temp, .dep,.humidity,.ressentit.wind,.etat{
+    border-top:.5px solid white;
+    border-bottom:.5px solid white;
+}
+.button{
+    background-color:rgba(0,0,0,.2);
+    /* box-shadow: 1px 1px 16px red; */
+  
+    color: white;
+    border: 1px double white;
+    margin-top:20px;
+}
+.button:active{
+    box-shadow: inset -4px -4px 8px rgb(255 255 255 / 50%), inset 8px 8px 16px rgb(0 0 0 / 10%);
+    color: #79e3b6;
+}
+input{
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+input:placeholder{
+    color:black;
+}
+input:focus{
+    outline:none;
+}
+
+#background{
+    background-size:cover;
+    height:auto;
+}
+.image-desc{
+    width: 20%;
+    margin: 20px 0px;
+}
