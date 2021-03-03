@@ -30,7 +30,7 @@
         let newMap = newData.map((map)=>map)
 
          //2eme API
-        let url2 = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=7bdf7b9960ed4bfd4f12654d1d56fd2a`;
+        let url2 = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=API_KEY`;
         fetch(url2)
         .then(response => response.json())
         .then((data2) => {
